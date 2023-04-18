@@ -1,0 +1,23 @@
+CREATE TABLE inventory (id INTEGER PRIMARY KEY, name TEXT, color TEXT, speed INTEGER, price INTEGER);
+
+INSERT INTO inventory VALUES (1, "SARA", "PINK", 3, 100);
+INSERT INTO inventory VALUES (2, "NAOMI", "PURPLE", 3, 100);
+INSERT INTO inventory VALUES (3, "CAROL", "LAVENDER", 4, 130);
+INSERT INTO inventory VALUES (4, "SAM", "RED", 5, 200);
+INSERT INTO inventory VALUES (5, "TRACI", "YELLOW", 4, 130);
+INSERT INTO inventory VALUES (6, "CINDY", "BLUE", 3, 100);
+INSERT INTO inventory VALUES (7, "LORA", "WHITE", 3, 100);
+INSERT INTO inventory VALUES (8, "MARIE", "BLACK", 4, 130);
+INSERT INTO inventory VALUES (9, "DONNA", "MAGENTA", 3, 100);
+INSERT INTO inventory VALUES (10, "MARY", "GREEN", 5, 200);
+INSERT INTO inventory VALUES (11, "SUSAN", "BROWN", 3, 100);
+INSERT INTO inventory VALUES (12, "WHITNEY", "GOLD", 6, 230);
+INSERT INTO inventory VALUES (13, "PAM", "ORANGE", 4, 130);
+INSERT INTO inventory VALUES (14, "HEATHER", "GREY", 3, 100);
+INSERT INTO inventory VALUES (15, "KARA", "CORAL", 5, 200);
+
+SELECT * FROM inventory ORDER BY price;
+
+SELECT MAX(speed) FROM inventory;
+
+
